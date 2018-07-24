@@ -1,3 +1,3 @@
-i=int(input("enter a number"))
-j=int(input("enter a number"))
-print(i**j)
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+print(a**b)
