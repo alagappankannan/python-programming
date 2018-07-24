@@ -1,3 +1,3 @@
-a=int(input("enter a number"))
-b=int(input("enter a number"))
+a=int(input("number1"))
+b=int(input("number2"))
 print(a**b)
