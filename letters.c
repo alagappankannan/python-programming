@@ -1,15 +1,9 @@
-#include<stdio.h>
-void main()
-{
-char L;
-printf("Enter the character");
-scanf("%c",&L);
-if(L>a&&L<z)
-{
-printf("ALPHABET");
-}
-ELSE
-{
-printf("NO");
-}
-}
+ch = raw_input("Enter any character: ")
+
+if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')):
+	
+	print("is an alphabet.\n")
+
+else :
+	
+	print ("is not an alphabet.\n")
