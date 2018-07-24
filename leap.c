@@ -1,10 +1,13 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
-int b;
-scanf("%d",&b);
-if(b%4==0)
-printf("leap year");
+int a;
+if(a%4==0)
+{
+printf("leap year %d",a);
+}
 else
-printf("not leap year");
+{
+printf("not leap year %d",a);
+}
 }
